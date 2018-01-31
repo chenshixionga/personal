@@ -1,1 +1,12 @@
-### 当文档中存在相关的文件时，仍然报错 :no such file or directory 
+## 1、路由传参
+<a routerLink="/shop/analysis" [queryParams]="{beginTime: beginTime, endTime: endTime}" ></a>
+
+ {
+        path: 'analysis',
+        component: AnalysisComponent
+      },
+      
+this.route.queryParams.subscribe((params: Params) => {
+      this.beginTime = params['beginTime']
+      this.endTime = params['endTime']
+    });
