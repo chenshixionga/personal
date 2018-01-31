@@ -1,4 +1,4 @@
-[开发笔记](./开发笔记.md)
+[开发笔记](./开发笔记/开发笔记.md)
 
 [sourceTree安装关联git](./sourceTree安装关联git.md)
 
