@@ -25,3 +25,10 @@ let json = {"name":"kang","age":12}
       "salary":12340
     }
 ```
+## 3、深层赋值
+```
+ // deep copy of form model lairs
+  const secretLairsDeepCopy: Address[] = formModel.secretLairs.map(
+    (address: Address) => Object.assign({}, address)
+  );
+```  
