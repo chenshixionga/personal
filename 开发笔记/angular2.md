@@ -18,7 +18,8 @@ this.route.queryParams.subscribe((params: Params) => {
 let json = {"name":"kang","age":12}
     json["salary"]=12340
     console.log(json)
-    json={
+    结果：
+    json={
       "name":"kankan",
       "age":12,
       "salary":12340
