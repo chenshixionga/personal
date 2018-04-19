@@ -3,6 +3,9 @@
   deepCopy (data) {
     return JSON.parse(JSON.stringify(data));
   }
+  
+  //三点标识数组或对象的第一层拆散，
+  this.realOders.push(...orders)
 ```
 ## 对象循环
 ```
