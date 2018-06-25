@@ -5,3 +5,17 @@
 ### 3、安装nginx 
    ##### ① yum install nginx
    ##### ② is this ok: y  
+   
+### 完全卸载掉nginx
+```
+  rm -rf /etc/nginx/
+  rm -rf /usr/sbin/nginx
+  rm /usr/share/man/man1/nginx.1.gz
+  apt-get remove nginx*
+```
+```
+  rm -rf /etc/nginx/
+  rm -rf /usr/sbin/nginx
+  rm /usr/share/man/man1/nginx.1.gz
+  yum remove nginx*
+```
