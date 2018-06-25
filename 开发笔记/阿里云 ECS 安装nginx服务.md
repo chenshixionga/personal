@@ -25,7 +25,7 @@
    刚安装的Nginx不会自行启动。运行Nginx:
    ```
    sudo systemctl start nginx.service
-   ``
+   ```
    如果一切进展顺利的话，现在你可以通过你的域名或IP来访问你的Web页面来预览一下Nginx的默认页面
    
    
