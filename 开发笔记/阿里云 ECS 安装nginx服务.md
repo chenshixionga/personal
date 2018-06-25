@@ -42,3 +42,20 @@
   rm /usr/share/man/man1/nginx.1.gz
   yum remove nginx*
 ```
+### 配置命令操作
+   ① 打开文件  /etc/nginx/nginx.conf 
+   ```
+      vim /etc/nginx/nginx.conf  
+   ```
+   ② 进入编辑状态 i
+   ```
+     i
+   ```
+   ③ 退出编辑状态 esc 键
+   ```
+     ESC
+   ```
+   ④ 保存并退出文件 
+   ```
+     :wq
+   ```
