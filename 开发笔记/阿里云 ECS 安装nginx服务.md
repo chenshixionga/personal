@@ -20,7 +20,7 @@
    ```
    Nginx将完成安装在你的CentOS 7 服务器中。
 
-   3.启动Nginx
+   #### 3.启动Nginx
 
    刚安装的Nginx不会自行启动。运行Nginx:
    ```
