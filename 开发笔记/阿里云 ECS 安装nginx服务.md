@@ -29,7 +29,7 @@
    如果一切进展顺利的话，现在你可以通过你的域名或IP来访问你的Web页面来预览一下Nginx的默认页面
    
    
-### 完全卸载掉nginx
+### 4.完全卸载掉nginx
 ```
   rm -rf /etc/nginx/
   rm -rf /usr/sbin/nginx
@@ -42,7 +42,7 @@
   rm /usr/share/man/man1/nginx.1.gz
   yum remove nginx*
 ```
-### 配置命令操作
+### 5.配置命令操作
    ① 打开文件  /etc/nginx/nginx.conf 
    ```
       vim /etc/nginx/nginx.conf  
