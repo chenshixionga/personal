@@ -115,3 +115,5 @@
  ```
  
  接下来就根据配置文件进行下一步工作。配置文件中的server_name后面是阿里云服务器的ip地址,配置文件中的listen是nginx监听的端口号，所以需要在阿里云服务器上为80端口添加安全组规则
+ 
+ 参考：部署vue前端项目到服务器上（nginx处理跨域）<https://blog.csdn.net/sherry_chan/article/details/79055211>
