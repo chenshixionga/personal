@@ -25,3 +25,10 @@
       entrys.push({key: key, value: value[key]});
     }
 ```
+
+### 金额判断
+```
+ if (parseFloat(value).toString() === 'NaN') {
+          callback(new Error('请输入正确金额 '))
+        }
+```
