@@ -6,6 +6,8 @@
   
   //三点标识数组或对象的第一层拆散，
   this.realOders.push(...orders)
+  
+  Object.assign({}, address)
 ```
 ## 对象循环
 ```
