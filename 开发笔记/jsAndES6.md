@@ -7,7 +7,6 @@
   //三点标识数组或对象的第一层拆散，
   this.realOders.push(...orders)
   
-  Object.assign({}, address)
 ```
 ## 对象循环
 ```
@@ -33,4 +32,9 @@
  if (parseFloat(value).toString() === 'NaN') {
           callback(new Error('请输入正确金额 '))
         }
+```
+
+### 对象合并
+```
+   Object.assign({}, address)
 ```
