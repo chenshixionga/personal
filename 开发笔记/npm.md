@@ -4,3 +4,8 @@
 ```
     npm install --registry=https://registry.npm.taobao.org
 ```
+
+###### 具体包的安装
+```
+  npm install echarts --save --registry=https://registry.npm.taobao.org
+```
