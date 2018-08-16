@@ -9,3 +9,8 @@
 ```
   npm install echarts --save --registry=https://registry.npm.taobao.org
 ```
+
+###### 直接设置npm为淘宝镜像
+```
+    npm config set registry https://registry.npm.taobao.org
+```
